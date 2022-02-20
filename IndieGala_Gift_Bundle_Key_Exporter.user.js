@@ -66,7 +66,7 @@
                     gameList.snapshotItem(i).children[0].children[0].innerHTML  // GAME NAME
                     + "\t" +
                     gameList.snapshotItem(i).children[1].children[0].children[0].children[0].value // SERIAL KEY
-                    + ":\t" +
+                    + "\t" +
                     gameList_eny.eq(i).find('a[href*="https://store.steampowered.com/"]').attr('href')  // GAME URL
                     + "\r\n";
                 // MODIFY HTML TO SET STEAM ICON AS A URL TO ACTIVATE THE KEY TO STEAM
